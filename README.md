@@ -22,6 +22,13 @@ Index url or access the app on the development server, use http://<ip address or
 * reading on form validating with django -- adding custom error messaging to the django form validation is not implemented in this project
   * Django docs, stackexchange
   * future aspiration will be to master this customization
+ 
+ **Design decisions**
+ Req 1 - entry page
+ * the article page and error page use the same template with a conditional to indicate if we show or not show the _page not found_ message
+ Req 2 - index page
+ * As we only have 1 app for the project, strictly speaking, an app_name in urls.py is not necessary to avoid namespace collisions across apps. As such, I opted not to implement this option. 
+ *
 
 **Files run through pycodestyle:**
 views.py
