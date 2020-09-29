@@ -1,0 +1,19 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    {{ entry_name }}
+{% endblock %}
+
+{% block body %}
+    {% if not is_entry %}
+        <h1>Entry not found: {{ entry_name }}</h1>
+    {% else %}
+        <div class="edit_link">
+            <a href="{% url 'edit' entry_name %}">Edit Article</a>: {{ entry_name }}
+        </div>
+
+        <div>
+            {{ content|safe }}
+        </div>
+    {% endif %}
+{% endblock %}
