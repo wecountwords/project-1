@@ -38,8 +38,12 @@ Index url or access the app on the development server, use http://<ip address or
    * All article titles are saved with the first latter capitalized to support a more intuitive sort order for the "All Page" list.
    * Duplicate article error is shown as a message returned to the top of the create page. 
    * OPEN ITEM: implement the error via the Django validation and error mechanism for a more standardized mechanism. Future aspiration.
-   
-
+* Req 5 - Edit Page
+  * Design assumption: the user should not be able to make changes to the article title, only the markdown.
+* Req 6 - Random Page
+  * I built a get_random() function in the util.py library to get a random title from the existing titles. It uses the pythong random module. Opted to leave the seed empty to force it to use the system time.
+* Req 7 - Markdown to HTML conversion
+  * As per the suggestion in the requirements, used the markdown2 module along wiht the safe filter to support successful rending of html.
 
 **Files run through pycodestyle:**
 views.py
