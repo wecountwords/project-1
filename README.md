@@ -1,7 +1,7 @@
 # project-1: Wiki 
 CSCI E-33a project-1 
 
-** submitting the tegan-wiki.zip for project-1 + the unzipped filed in the project **
+**submitting the tegan-wiki.zip for project-1 + the unzipped filed in the project**
 
 **Purpose: design a Wikipedia-liek online encyclopedia. **
 
