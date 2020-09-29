@@ -1,9 +1,9 @@
 # project-1: Wiki 
 CSCI E-33a project-1 
 
-**submitting the tegan-wiki.zip for project-1 + the unzipped filed in the project**
+**submitting tegan-wiki.zip for project-1 + the unzipped files in the project which will be found in the wiki directory**
 
-**Purpose: design a Wikipedia-liek online encyclopedia. **
+**Purpose: design a Wikipedia-liek online encyclopedia.**
 
 **Notes for graders**
 Index url or access the app on the development server, use http://<ip address or server name>/wiki.  _wiki_ must be all lowercase. 
